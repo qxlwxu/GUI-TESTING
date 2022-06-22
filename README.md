@@ -60,7 +60,7 @@ getgenv().autoclick = true;
 
 while getgenv().autoclick == true do
 	game:GetService("ReplicatedStorage").Events.Click3:FireServer()
-	wait()
+	wait(.3)
 end
 end)
 
@@ -71,7 +71,7 @@ getgenv().autoclick = false;
 
 while getgenv().autoclick == true do
 	game:GetService("ReplicatedStorage").Events.Click3:FireServer()
-	wait()
+	wait(.)
 end
 end)
 
